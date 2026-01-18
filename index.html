@@ -7,7 +7,7 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -27,29 +27,70 @@
 
     <main class="main-content">
       <!-- メインビジュアル -->
-       <section class="main-visual">
-         <img src="img/main_visual.jpg" alt="メイン画像">
-       </section>
+      <section class="main-visual">
+        <img src="img/main_visual.jpg" alt="メイン画像">
+      </section>
       <!-- プロフィール セクション -->
-       <section id ="profile">
-          <h2 class="sub-title">profile</h2>
-          <div>
+      <section class="section" id="profile">
+        <h2 class="section-title">profile</h2>
+        <div class="profile-index">
+          <div class="profile-image">
             <img src="img/profile.png" alt="プロフィール画像">
+          </div>
+          <div class="profile-data">
             <h3 class="name">TARO RARETECH</h3>
             <dl>
-              <dt>出身</dt>
-              <dd>漫画・アニメを見ること</dd>
+              <dt>出身：</dt>
+              <dd>山口県</dd>
+              <dt>趣味：</dt>
+              <dd>漫画アニメを見ること・習慣化</dd>
               <dt>技術</dt>
-              <dd>フロントエンド・バックエンド</dd>
+              <dd>インフラ領域</dd>
             </dl>
           </div>
-       </section>
+        </div>
+      </section>
 
       <!-- 記事 セクション -->
-
+      <section class="section" id="articles">
+        <h2 class="section-title">Articles</h2>
+        <ul class="articles-list">
+          <li class="article-item">
+            <a href="#">
+              <img src="img/article.jpg" alt="記事の画像">
+              <h3 class="article-title">記事のタイトル</h3>
+              <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+            </a>
+          </li>
+          <li class="article-item">
+            <a href="#">
+              <img src="img/article.jpg" alt="記事の画像">
+              <h3 class="article-title">記事のタイトル</h3>
+              <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+            </a>
+          </li>
+          <li class="article-item">
+            <a href="#">
+              <img src="img/article.jpg" alt="記事の画像">
+              <h3 class="article-title">記事のタイトル</h3>
+              <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+            </a>
+          </li>
+          <li class="article-item">
+            <a href="#">
+              <img src="img/article.jpg" alt="記事の画像">
+              <h3 class="article-title">記事のタイトル</h3>
+              <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!-- フッター -->
+     <footer class="footer">
+      <p>&copy; 2024 Taro Raretech</p>
+     </footer>
 
   </div>
 </body>
