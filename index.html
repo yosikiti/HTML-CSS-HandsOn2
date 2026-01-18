@@ -7,17 +7,43 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+    <header class="header">
+      <h1 class="site-logo">
+        <img src="img/logo.png" alt="サイトロゴ">
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#profile">profile</a></li>
+          <li><a href="#articles">articles</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
-
+       <section class="main-visual">
+         <img src="img/main_visual.jpg" alt="メイン画像">
+       </section>
       <!-- プロフィール セクション -->
+       <section id ="profile">
+          <h2 class="sub-title">profile</h2>
+          <div>
+            <img src="img/profile.png" alt="プロフィール画像">
+            <h3 class="name">TARO RARETECH</h3>
+            <dl>
+              <dt>出身</dt>
+              <dd>漫画・アニメを見ること</dd>
+              <dt>技術</dt>
+              <dd>フロントエンド・バックエンド</dd>
+            </dl>
+          </div>
+       </section>
 
       <!-- 記事 セクション -->
 
